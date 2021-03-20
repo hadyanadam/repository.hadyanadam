@@ -85,7 +85,7 @@ class HotstarAPI:
 
     def doLogin(self):
         url = url_constructor(
-            "/id/aadhar/v2/firetv/in/users/logincode/")
+            "/in/aadhar/v2/firetv/in/users/logincode/")
         resp = self.post(url, headers={"Content-Length": "0"})
         code = deep_get(resp, "description.code")
         yield (code, 1)
@@ -170,7 +170,7 @@ class HotstarAPI:
             with PersistentDict("userdata.pickle") as db:
                 oldToken = db.get("token")
                 if oldToken:
-                    resp = self.session.get(url_constructor("/id/aadhar/v2/firetv/in/users/refresh-token"),
+                    resp = self.session.get(url_constructor("/in/aadhar/v2/firetv/in/users/refresh-token"),
                                             headers={"userIdentity": oldToken, "deviceId": db.get("deviceId", uuid4())}, raise_for_status=False, max_age=-1).json()
                     if resp.get("errorCode"):
                         return resp.get("message")
