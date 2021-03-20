@@ -30,13 +30,13 @@ def isLoggedIn(func):
                 Script.notify(
                     "Login Error", "Please login to watch this content")
                 executebuiltin(
-                    "RunPlugin(plugin://plugin.video.botallen.hotstar/resources/lib/main/login/)")
+                    "RunPlugin(plugin://plugin.video.hadyanadam.hotstar/resources/lib/main/login/)")
                 return False
     return login_wrapper
 
 
 def guestToken():
-    resp = urlquick.post(url_constructor("/id/aadhar/v2/firetv/id/user/guest-signup"), json={
+    resp = urlquick.post(url_constructor("/in/aadhar/v2/firetv/in/user/guest-signup"), json={
         "idType": "device",
         "id": str(uuid4()),
     }).json()
