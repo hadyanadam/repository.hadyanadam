@@ -137,7 +137,7 @@ class HotstarAPI:
                         Script.notify(
                             "Login Error", "Please login to watch this content")
                         executebuiltin(
-                            "RunPlugin(plugin://plugin.video.botallen.hotstar/resources/lib/main/login/)")
+                            "RunPlugin(plugin://plugin.video.hadyanadam.hotstar/resources/lib/main/login/)")
                     else:
                         Script.notify(
                             "Subscription Error", "You don't have valid subscription to watch this content", display_time=2000)
