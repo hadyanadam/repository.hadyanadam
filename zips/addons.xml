@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.hadyanadam.hotstar" name="Disney+ Hotstar" provider-name="hadyanadam" version="0.0.1">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+        <import addon="script.module.codequick" version="0.9.10"/>
+        <import addon="script.module.inputstreamhelper" version="0.4.5"/>
+        <import addon="repository.hadyanadam" version="1.0.0" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Stream Disney+ Hotstar Content In Kodi.</summary>
+        <description lang="en_GB">Disney+ Hotstar (erstwhile Hotstar) is Indonesia`s largest premium streaming platform that has changed the way Indonesians watch their entertainment - from their favourite TV shows and movies to sporting extravaganzas. With the widest range of content in India, Disney+ Hotstar offers more than 100,000 hours of TV Shows and Movies in 8 languages, regional and national News, and coverage of every major global sporting event, including the IPL. Disney+ Hotstar Premium has a large selection of Disney+ Originals, latest American shows, blockbuster Hollywood movies and award-winning content from International studios; whereas with Disney+ Hotstar VIP, users get access to Disney content in local languages, exclusive new content from the Hotstar Specials label, access to STAR network serials before television, and the latest and best of live sporting action. In its earlier avatar, the Hotstar mobile app has notched 400 Mn+ downloads, making it one of the most in-demand apps in India and also secured top spots on the Google Play Store as well as the Apple App Store. The app’s success reflects its highly evolved video streaming technology as well as the quality of experience across devices and platforms.</description>
+        <disclaimer lang="en_GB">This plugin is Indonesian version of botallen.hotstar plugin and not officially commissioned/supported by Hotstar. The trademark "Hotstar" is registered by "Novi Digital Entertainment Private Limited (Novi)"</disclaimer>
+        <license>MIT</license>
+        <source>https://github.com/botallen/repository.hadyanadam/tree/master/plugin.video.hadyanadam.hotstar</source>
+        <website></website>
+        <email>hadyanadamn@gmail.com</email>
+        <platform>all</platform>
+        <language>en</language>
+        <assets>
+            <icon>resources/icon.jpg</icon>
+            <fanart>resources/fanart.png</fanart>
+            <screenshot>resources/screenshots/screenshot000.png</screenshot>
+            <screenshot>resources/screenshots/screenshot001.png</screenshot>
+            <screenshot>resources/screenshots/screenshot002.png</screenshot>
+        </assets>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+    </extension>
+</addon>
+
+<addon id="repository.hadyanadam" name="Hadyanadam Repository" version="1.0.0" provider-name="hadyanadam">
+    <extension point="xbmc.addon.repository" name="Example Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/hadyanadam/repository.hadyanadam/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/hadyanadam/repository.hadyanadam/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/hadyanadam/repository.hadyanadam/master/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Hadyanadam Repository</summary>
+        <description>Hadyanadam Repository</description>
+        <disclaimer>Unofficial Kodi Repo</disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+</addons>
