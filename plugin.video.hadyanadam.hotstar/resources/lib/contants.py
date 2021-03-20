@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from codequick.utils import urljoin_partial
 
-NAME = "plugin.video.botallen.hotstar"
+NAME = "plugin.video.hadyanadam.hotstar"
 
 # URLs
 API_BASE_URL = "https://api.hotstar.com"
