@@ -12,6 +12,6 @@
 
 ## Disclaimer
 
-This plugin based on https://github.com/botallen/repository.botallen/tree/master/plugin.video.botallen.hotstar
+This plugin based on https://github.com/botallen/repository.botallen/
 
 This plugin is not officially commissioned/supported by Hotstar. The trademark "Hotstar" is registered by "Novi Digital Entertainment Private Limited (Novi)"
