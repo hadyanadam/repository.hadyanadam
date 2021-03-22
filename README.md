@@ -1,6 +1,6 @@
 <h2 align="center">
   <br>
-  <a href="https://github.com/hadyanadam/repository.hadyanadam/tree/master/plugin.video.hadyanadam.hotstar"><img src="resources/icon.jpg" height="60" width="60"></a>
+  <a href="https://github.com/hadyanadam/repository.hadyanadam/tree/master/plugin.video.hadyanadam.hotstar"><img src="plugin.video.hadyanadam.hotstar/resources/icon.jpg" height="120" width="120"></a>
   <br>
   Disney+ Hotstar
   <br>
